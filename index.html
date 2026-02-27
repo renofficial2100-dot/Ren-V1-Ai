@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>RenV1 AI</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>RenV1 AI</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="chat-container">
-  <div id="chat"></div>
+<div class="header">
+  <div class="logo">RenV1 AI</div>
+  <div class="status">🟢 Online • GPT-4o</div>
+</div>
 
-  <div class="input-box">
-    <input id="msg" placeholder="Magtanong ng kahit ano..." />
-    <button onclick="send()">➤</button>
-  </div>
+<div id="chat"></div>
+
+<div class="typing" id="typing">AI is typing...</div>
+
+<div class="input-box">
+  <input id="msg" placeholder="Magtanong ng kahit ano..." />
+  <button onclick="send()">➤</button>
 </div>
 
 <script src="script.js"></script>
